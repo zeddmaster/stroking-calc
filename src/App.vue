@@ -58,7 +58,7 @@ function theFormat(number){
                 <div v-else class="calc__item">
 
                     <div class="calc__item-img">
-                        <img :src="`/src/assets/cat.${animateCat ? 'gif' : 'png'}`" alt="stroking">
+                        <img :src="`/src/assets/cat.${animateCat ? 'webp' : 'png'}`" alt="stroking">
                     </div>
                     <div class="calc__item-input">
                         <span class="w-100">
